@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+.profile-container {
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  border: none;
+}
+
+.profile-heading {
+  color: #12022f;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.profile-paragraph {
+  color: #616e7c;
+  font-size: 20px;
+  margin-top: 15px;
+}

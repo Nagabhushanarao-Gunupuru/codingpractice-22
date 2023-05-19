@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.description {
+  display: flex;
+  align-self: flex-end;
+  color: #616e7c;
+  font-size: 15px;
+}
+.title {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: bold;
+}
+.date {
+  color: #616e7c;
+  font-size: 18px;
+}
